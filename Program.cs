@@ -14,7 +14,7 @@ class Program
         string body = Console.ReadLine();
 
         string requestBody = @"{
-            ""to"": ""czrGRDYSSHe_ETdJ-2w9oX:APA91bHXcGk13w-2rzJBWP_RtCDFiJ2UjWl7PC2PE6JDrKf_TMX3e0tkaFGb5OcUgtqDfixBOqswi4gOv6YKxv8kQn9_ZDGZgVpO0lK3Uh2ptEMiBP8ZPsada25SyhouUl_LAEU47gFD"",
+            ""to"": ""firebase device token"",
             ""notification"": {
                 ""title"": """ + title + @""",
                 ""body"": """ + body + @"""
@@ -22,7 +22,7 @@ class Program
         }";
 
         string url = "https://fcm.googleapis.com/fcm/send";
-        string authorizationHeader = "AAAAzo2uhFg:APA91bHF9c1x0Oisgihg2DssfqbKQZEaBnWmgGzJmfstel1cFyu3-NrQt0FmPgSio08xM990gpnBQdrzSXZrj4z0D5ZzfA985SzJ8vIQFlNTX2ho6IO--TIRljCbQcfBJHpSJZKtDrDh";
+        string authorizationHeader = "headerKey";
 
         try
         {
